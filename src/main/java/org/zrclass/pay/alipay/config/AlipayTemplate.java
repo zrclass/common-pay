@@ -3,6 +3,8 @@ package org.zrclass.pay.alipay.config;
 import com.alipay.easysdk.factory.Factory;
 import com.alipay.easysdk.kernel.Config;
 import com.alipay.easysdk.payment.page.models.AlipayTradePagePayResponse;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 import org.zrclass.pay.alipay.vo.PayVo;
@@ -14,6 +16,8 @@ import org.zrclass.pay.alipay.vo.PayVo;
  */
 @ConfigurationProperties("alipay")
 @Component
+@Getter
+@Setter
 public class AlipayTemplate {
     //应用id
     private String appId;

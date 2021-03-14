@@ -45,6 +45,12 @@
             </exclusions>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.alipay.sdk/alipay-easysdk -->
         <dependency>
             <groupId>com.alipay.sdk</groupId>
